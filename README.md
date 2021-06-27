@@ -2,29 +2,30 @@
 
 Clone the repo
 
-Start server
+  cd iTunes-Server
 
-cd iTunes-Server
-Install dependencies.
+  Install dependencies.
+  yarn install
 
-yarn install
-Build the  server.
+  Build the  server.
+  yarn build
 
-yarn build
-Run the server.
+  Run the server.
+  yarn serve
 
-yarn serve
-
+-----------------------------------------------
 Start UI
-cd itunes-ui
-Install dependencies.
 
-yarn install
-Build the  server.
+  cd itunes-ui
 
-yarn build
-Run the server.
+  Install dependencies.
+  yarn install
 
-yarn serve
+  Build the  server.
+  yarn build
 
+  Run the server.
+  yarn serve
+
+  enter http://localhost:8080/#/ in browser
 
